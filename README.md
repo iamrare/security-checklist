@@ -1,6 +1,9 @@
 # Security checklist
 A checklist for staying safe on the internet.
 
+### This project has moved
+In the interest of maintaining fewer services, codebases, and domains, I've integrated this project into my [personal website](https://github.com/brianlovin/brian-lovin-next). View the live project at [brianlovin.com/security](https://brianlovin.com/security).
+
 ### Motivation
 This project is the result of a conversation started during a [recent episode](https://spec.fm/podcasts/design-details/249464) of the [Design Details Podcast](https://spec.fm/podcasts/design-details/) and a subsequent tweet by [Michael Knepprath](https://twitter.com/mknepprath/status/1083966912420372481).
 
@@ -23,7 +26,7 @@ If you would like to create a new category of security and privacy resources, pl
 5. View the running app in your browser at `http://localhost:3000`
 
 ### Deploying
-You can deploy this project yourself with ZEIT + Now by configuring `now.json` and running `$ now`. You should change the Google Analytics tag in `lib/gtag.js` and the Sentry DSN url in `pages/_app.js`.
+You can deploy this project yourself with ZEIT + Now by configuring `now.json` and running `$ now`.
 
 ### Feedback
 Please open issues at any time for general feedback, or you can reach me directly at hi@brianlovin.com.

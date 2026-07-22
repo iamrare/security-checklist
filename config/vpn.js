@@ -34,6 +34,10 @@ export default {
       name: 'ExpressVPN',
       image: '/static/img/expressvpn.jpg',
       url: 'https://www.expressvpn.com/',
+      offer: {
+        label: 'Get 30 days free',
+        url: 'https://www.expressrefer.com/refer-friend?referrer_id=44490458&utm_campaign=referrals&utm_medium=copy_link&utm_source=referral_dashboard',
+      },
       sources: {
         windows: 'https://www.expressvpn.com/vpn-software/vpn-windows',
         macos: 'https://www.expressvpn.com/vpn-software/vpn-mac',
@@ -65,7 +69,7 @@ export default {
         ios:
           'https://itunes.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085',
         android:
-          'https://play.google.com/store/apps/details?id=com.protonvpn.android',
+          'https://play.google.com/store/apps/details?id=ch.protonvpn.android',
         linux: 'https://protonvpn.com/download/#dl-clients',
       },
     },
@@ -86,6 +90,26 @@ export default {
           'https://www.privateinternetaccess.com/installer/x/download_installer_linux',
       },
     },
+    {
+      name: 'PureVPN',
+      image: '/static/img/purevpn.jpg',
+      url: 'https://www.purevpn.com/' ,
+      sources: {
+        windows: 'https://www.purevpn.com/download/windows-vpn',
+        macos: 'https://www.purevpn.com/download/mac-vpn',
+        ios: ' https://www.purevpn.com/download/ios-vpn',
+        android: 'https://www.purevpn.com/download/android-vpn',
+        linux:'https://www.purevpn.com/download/linux-vpn',
+      }
+     },
+     {
+      name: 'Guardian Firewall',
+      image: '/static/img/guardian.png',
+      url: 'https://guardianapp.com',
+      sources: {
+        ios: 'https://itunes.apple.com/us/app/guardian-firewall/id1363796315'
+      }
+    }
   ],
   resources: [
     {
@@ -96,7 +120,7 @@ export default {
     {
       name: 'What is a VPN and why you need one',
       url:
-        'https://www.theverge.com/2018/4/1/17185732/cloudflare-dns-service-1-1-1-1',
+        'https://www.pcmag.com/article/352757/you-need-a-vpn-and-heres-why',
     },
     {
       name: 'Why you should use a VPN on a public Wi-Fi network',
